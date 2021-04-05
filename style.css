@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border_box;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carruselImagenes{
+display:flex;
+justify-content: center;
+
+}
+
+.encabezado{
+    align-self: center ;
+}
+
+.fotoLogo{
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.texto{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.subMenu{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    margin-left: 20px;
+}
+
+.paragraph{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: black;
+    color: darkturquoise;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.paragraph:hover{
+    transform: scale(1.5);
+}
+
+.menu1, .menu2, .menu3{
+    margin: 20px;
+}
+
+.paragraphBotton{
+    font-size: 20px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.menuProductos{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.descripcion{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: center;
+}
+
+.formulario{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 22px;
+}
+
+.fondoSubMenu{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: black;
+    color: darkturquoise;
+    margin-left: 20px;
+}
+
+a{
+    color:inherit /*Le da el color del elemento padre*/
+}
+
+.QuienesSomos{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.prodiPhones, .prodAirpods, .prodAppleWatch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fondo{
+    background-color: #F6F7F8;
+    width: 80%;
+    padding: 50px;
+    margin: 0 0 40px 80px;
+    
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   }
+   
+   .form-row input[type="text"],
+   .form-row input[type="email"]{
+       border: 1px solid #D6D9DC;
+       background-color: #fff;
+       width: 100%;
+       padding: 7px;
+       font-size: 12px;
+       margin-bottom: 7px;
+   }
+   
+   .form-row textarea{
+       resize: none;
+       min-height: 200px;
+       width: 100%;
+       border: 1px solid #D6D9DC;
+   }
+   
+   .form-row button{
+       background-color: aqua;
+       border: 1px solid black;
+       color: black;
+       border-radius: 4px;
+       font-size: 20px;
+       font-weight: bold;
+       padding: 10px 40px;
+       cursor: pointer;
+   }
+
+.carousel-inner{
+    border-radius: 10px;
+    margin: 5px;    
+}
+
+
+.carousel-item h5{
+    color: darkturquoise;
+    background-color: transparent;
+}
+.carousel-item p{
+    color: darkturquoise;
+    background-color: transparent;
+}
